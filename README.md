@@ -1,12 +1,16 @@
 # Cmput404
 Question 1：https://github.com/ZhiyuanYu133
+
 Question 2：2.28.1
+
 Question 3：2.28.2
+
 Question 4：
 Under a virtual environment, separate directory on the system were created where it will install its own versions of Python ( with any packages installed as well). This allows people to have different versions of Python installed on one machine without interfering with each other.
 But in a non-virtual environment, since we are using the global Python installation and its packages, that any changes you make to the packages will affect all projects that use that global installation.
 
-Question 5：301 Moved Permanently;
+Question 5：
+301 Moved Permanently;
 https://www.google.com 
 
 Question 6:
