@@ -15,7 +15,7 @@ https://www.google.com
 
 Question 6:
 For “curl http://www.google.com/teapot”, the status code is 301 Moved Permanently, It is the one returned by "curl -i http://google.com/teapot” However, the command “curl -iL http://google.com/teapot” return both 301 Moved Permanently and 418 I'm a Teapot.
-When we curl 
+When we "curl http://www.google.com/teapot", the server will respond with an HTTP status code of 418 I'm a teapot.
 
 Question 7:
 The“curl -i https://webdocs.cs.ualberta.ca/~hindle1/1.py ” will return the script file content, but “curl -i -X POST -d "X=Y" https://webdocs.cs.ualberta.ca/~hindle1/1.py” will not return the script file content, it will return the response from the script which is handling the POST request.
